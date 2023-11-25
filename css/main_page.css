@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    margin: 0;
+}
+.btn-submit-play {
+    border: none;
+    background: #0BC2CF;
+    border-radius: 2px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+.toolbar {
+    width: 250px;
+    padding-top: 50px;
+    text-align: center;
+    background: #9A49AA;
+    border-right: 3px solid #7B3A88;
+}
+.main {
+    background: #0BC2CF;
+}
+.title {
+    font-family: Titan One;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.toolbar .content {
+    padding-inline-start: 0;
+    flex-direction: column;
+}
+.list {
+    display: block;
+}
+.list button{
+    background: #9A49AA;
+    border: none;
+}
+.color {
+    color: white;
+    padding-bottom: 0%;
+}
+.header{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.info {
+    display:flex;
+}
+.picture {
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+}
+.thongso {
+    height: auto;
+    flex: 1;
+    display: flex;
+    justify-content: stretch;
+}
+.right-pos {
+    float: right;
+}
+.statistics{
+    margin: .5%;
+}
+.option {
+    background-color: #9A49AA;
+    border-radius: 10px;
+    /* width: 30%; */
+}
